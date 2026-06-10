@@ -1,3 +1,4 @@
+
 import React from "react";
 import themeimg from './ai.webp';
 
@@ -35,6 +36,7 @@ function App() {
       <p>{pragraph}</p>
       <div>
         <p>{description}</p>
+        {element}
       </div>
 </div>
     </div>
@@ -42,6 +44,4 @@ function App() {
 
   );
 
-}
-
-export default App;
+}export default App;
