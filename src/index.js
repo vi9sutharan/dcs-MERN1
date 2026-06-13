@@ -10,11 +10,12 @@ import ListClick from './ListClick';
 import Table from './Table';
 import App2 from './App2';
 import SignIn from './SignIn';
+import Form from './Form';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>)
+//root.render(<App/>)
 //root.render(<Count/>)
 //root.render(<ReactList/>)
 //root.render(<App1/>)
@@ -23,7 +24,7 @@ root.render(<App/>)
 //root.render(<Table/>)
 //root.render(<App2/>)
 //root.render(<SignIn/>)
-
+root.render(<Form/>)
 
 
 reportWebVitals();
